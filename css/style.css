@@ -30,4 +30,6 @@ body{
 
 .container #prezzo:hover{
   transform: scale(1.1);
+  color: #666666;
+  cursor: pointer;
 }
