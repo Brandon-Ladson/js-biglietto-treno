@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: sans-serif;
+}
+
+/* regole container */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #256D7B;
+  color: #fff;
+}
+
+/* regole password */
+.container #prezzo{
+  padding: 20px 40px;
+  margin-top: 40px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #000;
+}
+
+.container #prezzo:hover{
+  transform: scale(1.1);
+}
